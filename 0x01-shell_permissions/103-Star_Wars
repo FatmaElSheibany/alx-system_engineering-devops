@@ -1,0 +1,5 @@
+#!/bin/bash
+apt install telnet
+telnet
+o
+towel.blinkenlights.nl

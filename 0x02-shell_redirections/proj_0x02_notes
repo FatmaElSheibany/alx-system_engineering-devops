@@ -1,0 +1,5 @@
+head -n will print first n lines; and n must have a - preceding it, else you get an error
+tail +n will print starting from the nth line (and here the indexing starts from 1, so there's no 0th line); tail -n will print the last n lines
+
+so scripts 6 to display line 3 of file 'iacta' could alternatively be -- tail +3 iacta | head -1
+==> meaning: print iacta starting from line 3, then print only the first line of that i.e. only line 3

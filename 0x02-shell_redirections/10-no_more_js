@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f | rm -R *.js
+find . -mindepth 0 -type f | grep '.js$' |xargs rm -rf

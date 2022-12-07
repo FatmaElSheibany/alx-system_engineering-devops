@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'PATH=\'$PATH:/action' >> ~/.profile
+echo 'export PATH=\'$PATH:/action' >> ~/.profile
